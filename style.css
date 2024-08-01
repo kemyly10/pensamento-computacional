@@ -1,0 +1,36 @@
+@import url('https://fonts.googleleapis.com/css2?family=Chakra=Petch:wight@400;');
+
+:root {
+    --cor-de-fundo: #08fafa;
+    --verde: #02c5c5;
+    --branco: #FFFFFF;
+    --botao-ativo: #0e00a8;
+    --botao-inativo: rgba(113, 101, 248, 0.5);
+    --texto-fundo: rgba(20, 92, 247, 0.3);
+}
+
+body {
+    background-color:  var(--cor-de-fundo);
+    color: var(--branco);
+font-family: 'Times New Roman', Times, serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.titulo-principal{
+ text-align: left;   
+ width: 100%;
+ font-size: 32px;
+}
+
+.botao{
+    font-family: 'Times New Roman', Times, serif;
+}
